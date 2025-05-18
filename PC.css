@@ -12,6 +12,7 @@
 
      main {
           padding-top: 4em;
+          flex: 1;
      }
 
      .p {
