@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+* {
+     margin: 0;
+     color: white;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Cascadia Mono", sans-serif;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     height: 100dvh;
+     background-color: #2d2d37;
+}
+
+.header {
+     position: fixed;
+     background-color: #25242a;
+     width: 100%;
+     display: flex;
+     gap: .68em;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+}
+
+.t {
+     cursor: default;
+     color: #f0f0f0;
+     font-size: 2.32em;
+}
+
+.div-master_header {
+     display: flex;
+     align-items: center;
+     gap: .5em;
+     justify-content: center;
+}
+
+.a {
+     text-decoration: none;
+     display: flex;
+     
+     & img {
+          transition: .35s ease;
+          border-radius: .5em;
+          padding: .2em;
+
+          &:hover {
+               transform: scale(1.1);
+               background-color: #3e3e41;
+          }
+     }
+}
+
+.btn {
+     background-color: #25242a;
+     color: #f0f0f0;
+     border: none;
+     padding: .34em .5em;
+     border-radius: .3em;
+     cursor: pointer;
+     font-size: 1.1em;
+     transition: .35s ease;
+
+     &:hover {
+          transform: scale(1.1);
+          background-color: #3e3e41;
+          /* box-shadow: 1.4px 2px 16px rgba(255, 255, 255, 0.2); */
+     }
+}
+
+
+/* MAIN */
+
+main {
+     margin-left: .3em;
+     padding-top: 6.5em;
+}
+
+ol, ul {
+     padding-top: .4em;
+     padding-left: 1.5em;
+}
+
+.div1 {
+     margin-left: .7em;
+     margin-top: .85em;
+     width: auto;
+     margin-right: .5em;
+     margin-bottom: .67em;
+     
+     & .p {
+          margin-bottom: .5em;
+          font-size: 1.05em;
+     }
+
+     & ol {
+          line-height: 1.5em;
+     }
+}
+
+p {
+     letter-spacing: .04em;
+}
+
+.div2 {
+     width: auto;
+
+     & .strong .p {
+          margin-bottom: .5em;
+
+     }
+
+     
+     & .p {
+          padding-left: .7em;
+     }
+     
+     & .margin-bottom {
+          margin-top: .3em;
+          margin-bottom: .6em;
+     }
+     
+     & .span {
+          text-decoration: underline;
+     }
+}
+
+.div2 ul:nth-of-type(2) {
+     margin-top: .6em;
+     margin-bottom: .6em;
+}
+
+.div3 {
+     margin-left: .7em;
+     width: auto;
+     margin-bottom: .6em;
+}
+
+.uppercase {
+     text-transform: uppercase;
+}
+
+.footer {
+     text-transform: uppercase;
+     letter-spacing: .2em;
+     color: white;
+     padding: .8em;
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 100%;
+     text-align: center;
+}
